@@ -1,0 +1,40 @@
+<div   class="user-auth">
+<div   *ngIf="showLogin"class=" usersign">
+    <h1 >User Sign-up</h1>
+   
+    <form #userForm="ngForm" (ngSubmit)="signup(userForm.value)" class="common-form" >
+    <input class="form-input" type="text" placeholder="Enter the User Name" name="name" ngModel>
+    <input class="form-input" type="email" placeholder="Enter the Email" name="email" ngModel>
+
+    <input class="form-input" type="password" placeholder="Enter the Password" name="Password" ngModel>
+   
+    <button class="form-button">Sign up</button>
+    <p>Already Have Account ?<a (click)="opensignup()"style="color: skyblue;" >Click here</a></p>
+</form>
+</div>
+<div *ngIf="!showLogin" class=" usersign">
+    <h1 >User Login</h1>
+    <p>{{autherror}}</p>
+    <form #userlogin="ngForm" (ngSubmit)=" login(userlogin.value)" class="common-form" >
+    <input class="form-input" type="email" placeholder="Enter the Email" name="email" ngModel>
+
+    <input class="form-input" type="password" placeholder="Enter the Password" name="Password" ngModel>
+   
+    <button class="form-button">Login</button>
+    <p >Want to Sign-up ?<a (click)="openlogin()" style="color: skyblue;">Click here</a></p>
+</form>
+</div>
+</div>
+<footer class="id">
+    <ul>
+        <li>Become a seller</li>
+        <li>Policies</li>
+        <li>terms And Condition</li>
+        <li>Help Centre</li>
+        <li>Facebook</li>
+        <li>Youtube</li>
+
+         <li>FAQ</li>
+
+    </ul>
+</footer>

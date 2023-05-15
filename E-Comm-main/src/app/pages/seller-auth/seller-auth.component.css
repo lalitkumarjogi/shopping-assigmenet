@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin-bottom: 50PX;
+    margin-top: 80PX;
+   color: blu;
+}
+.common-form{
+      text-align: center;
+
+      display:  flex;
+       margin: auto;
+        flex-direction: column;
+         width: 300px;
+}
+.form-input{
+    height:  35PX;
+    margin-bottom: 20PX;
+    padding-left: 10px;
+    border:  1px solid blueviolet;
+
+}
+.form-button{
+    height:  35PX;
+    border:  1px solid blueviolet;
+ cursor: pointer;
+ 
+
+}
+p{
+    text-align: center;
+    color:  red;
+}

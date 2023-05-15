@@ -1,0 +1,48 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    color: blueviolet;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav li{
+    padding-left:  15px;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+.nav .nav-s{
+    margin-top: 5px;
+    flex: 1;
+    display:  flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav .nav-s input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height:  35px;
+    border-right: 0px; 
+}
+.nav .nav-s button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height:  40px;
+    border-left: 0px; 
+}
+

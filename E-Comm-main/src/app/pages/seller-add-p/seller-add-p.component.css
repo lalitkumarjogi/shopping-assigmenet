@@ -1,0 +1,29 @@
+.form-input{
+    height:  35PX;
+    margin-bottom: 20PX;
+    padding-left: 10px;
+    border:  1px solid blueviolet;
+
+}
+.common-form{
+    text-align: center;
+     display:  flex;
+     margin: auto;
+      flex-direction: column;
+       width: 300px;
+}
+.form-button{
+    height:  35PX;
+    border:  1px solid blueviolet;
+ cursor: pointer;
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+   margin-top: 50px;
+}
+.msg{
+    color: green;
+    text-align: center;
+}
